@@ -1,0 +1,32 @@
+input#id-selector-1 {
+    background-color: darkgray;
+    color: white;
+    border-radius: 50px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.pos-absolute-12{
+    position: fixed;
+    right: 12px;
+}
+
+.pos-absolute-16{
+    position: fixed;
+    left: 16px;
+}
+
+.grid-row{
+    clear: both;
+}
+
+.grid-col-fifth-page{
+    width: 16%;
+    float: left;
+}
