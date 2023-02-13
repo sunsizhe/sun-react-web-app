@@ -1,10 +1,11 @@
 input#id-selector-1 {
-    background-color: darkgray;
+    background-color: whitesmoke;
     color: white;
     border-radius: 50px;
     font-size:18pt;
     height:35px;
-    width:85%
+    width:85%;
+    border:0;
 }
 
 .wd-rounded-corners-all-around{
@@ -50,6 +51,10 @@ input#id-selector-1 {
     left: 16px;
 }
 
+.wd-pos-relative{
+    position: relative;
+}
+
 .wd-grid-row{
     clear: both;
 }
@@ -65,17 +70,17 @@ input#id-selector-1 {
 
 .wd-topic{
     font-size: 13px;
-    color: rgb(110,118,125);
+    color: black;
 }
 
 .wd-title{
     font-size: 17px;
-    color: white;
+    color: black;
 }
 
 .wd-author{
     font-size: 13px;
-    color: white;
+    color: black;
 }
 
 .wd-relative{
@@ -84,13 +89,19 @@ input#id-selector-1 {
 
 .wd-border-solid{
     border: thin solid rgb(47,51,54);
-    width: 70%;
+    width: 100%;
     height: 100%;
     background-color: black;
 }
 
-.bar{
-    border-bottom: thick solid rgb(47, 51, 54);
+@media (max-width: 543px) {
+    .mydivs {
+        height: 2%;
+    }
+}
+
+.btn{
+    border-radius: 24px;
     width: 100%;
 }
 
