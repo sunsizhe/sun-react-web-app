@@ -105,5 +105,9 @@ input#id-selector-1 {
     width: 100%;
 }
 
+.active{
+    background-color: #2a9fd6;
+}
+
 
 

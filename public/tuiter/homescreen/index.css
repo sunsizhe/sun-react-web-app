@@ -1,0 +1,32 @@
+.wd-headImg{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.wd-posImag {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.wd-content {
+    color: lightgrey;
+}
+
+.wd-title {
+    font-size: 15px;
+    color: white;
+}
+
+.wd-left{
+    float: left;
+}
+
+.wd-float-right{
+    float: right;
+}
+
+.wd-pos-relative{
+    position: relative;
+}
