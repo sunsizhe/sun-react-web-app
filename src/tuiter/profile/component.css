@@ -1,0 +1,64 @@
+.wd-gray{
+    color: grey;
+}
+
+.wd-bold{
+    font-weight:bold;
+    size: 12px;
+}
+
+.wd-banner{
+    height: 250px;
+    width: 100%;
+}
+
+.wd-wrapper {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.wd-profile{
+    position: absolute;
+    left:0%;
+    top:70%;
+    border-radius: 45%;
+}
+
+.wd-camera{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.wd-camera-head{
+    position: absolute;
+    left: 8%;
+    top: 90%;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.wd-space{
+    height: 120px;
+}
+
+.wd-end{
+    position: absolute;
+    left: 80%;
+    top: 105%
+}
+
+.tab {
+    display:inline-block;
+    margin-left: 40px;
+}
+
+.wd-border{
+    border: solid 1px;
+}
+

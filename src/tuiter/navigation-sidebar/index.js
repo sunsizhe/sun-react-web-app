@@ -14,6 +14,7 @@ const NavigationSidebar = () => {
             <Link to="/tuiter/notification" className={`list-group-item ${active === 'notifications' ? 'active' : ''}`}> Notifications </Link>
             <Link to="/tuiter/meeages" className={`list-group-item ${active === 'messages' ? 'active' : ''}`}> Messages </Link>
             <Link to="/tuiter/bookmarks" className={`list-group-item ${active === 'bookmarks' ? 'active' : ''}`}> Bookmarks </Link>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}> Profile </Link>
             <Link to="/tuiter/lists" className={`list-group-item ${active === 'lists' ? 'active' : ''}`}> Lists </Link>
         </div>
     );

@@ -1,14 +1,14 @@
 import React from "react";
-import homesArray from './home.json'
-import HomeItem from "./HomeItem";
+import TuitsList from "../tuits/tuitsList";
+import WhatsHappening from "./whats-happening";
 
-const HomeItemList = () => {
-    return(
-        <ul className="list-group">
-            {
-                homesArray.map(home => <HomeItem key={home.id} home={home}/> )
-            }
-        </ul>
+const HomeComponent = () => {
+    return (
+        <>
+            <h4>Home</h4>
+            <WhatsHappening/>
+            <TuitsList/>
+        </>
     );
 };
-export default HomeItemList;
+export default HomeComponent;
