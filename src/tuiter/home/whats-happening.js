@@ -1,15 +1,20 @@
 import React, {useState} from "react";
-import {useDispatch} from "react-redux";
-import {createTuit} from "../reducers/home-reducer";
+import {useDispatch, useSelector} from "react-redux";
+//import {createTuit} from "../reducers/home-reducer";
+import {createTuitThunk} from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
     const dispatch = useDispatch();
+    const profile = useSelector(state => state.profile)
     const tuitClickHandler = () => {
         const newTuit = {
-            content: whatsHappening
+            title: whatsHappening,
+            username: profile.firstName,
+            handler: profile.handler,
+            image : "spacex.png"
         }
-        dispatch(createTuit(newTuit))
+        dispatch(createTuitThunk(newTuit))
     }
     return (
         <div className="row">

@@ -4,7 +4,7 @@ export default [
         userName: 'Elon Musk',
         handle: 'elonmusk - 23h',
         short: 'Amazing show about @Inspiration4x mission!',
-        image: '../../../image/elon.jpg',
+        image: '../../../image/spacex.png',
         title: 'Count: Inspiration4 Mission to Space | Netflix Official Site',
         content: 'From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbial space...',
         link: 'netflix.com',
